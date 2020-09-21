@@ -1,0 +1,10 @@
+class Yougeclass(object):
+    def Testprint():
+        print("我非常的美丽")
+
+    def Test2():
+        print(8+10)
+
+if __name__=="__main__":
+    Yougeclass.Testprint()
+    Yougeclass.Test2()
