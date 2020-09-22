@@ -1,0 +1,31 @@
+#  一个关于if嵌套用法的项目
+today = input ("请输入星期几1、2、3、4、5、6、7")
+temp_today = int(today)
+if temp_today ==1:
+    techer_name = input("请输入老师的姓名")
+    if techer_name =="游鸽":
+        print ("老师在3实312")
+    else:
+        print("没有这个老师")
+elif temp_today ==2:
+    print("没课")
+elif temp_today ==3:
+    techer_name = input("请输入老师的姓名")
+    if techer_name == "游鸽":
+        teaching_time = input("请输入是上课的时间上午、下午、晚上")
+        if teaching_time =="上午":
+            print("老师在2实203上课")
+        elif teachin_time == "晚上":
+            print("老师在3实312上课")
+        else:
+            print("老师不在这个地方上课")
+    else:
+        print("没有这个老师")
+elif temp_today ==4:
+    print("没课")
+elif temp_today ==5:
+    teacher_name = input("请输入这个老师的姓名")
+    if teacher_name =="游鸽":
+        print("老师在3实209")
+else:
+    print("今天周末，不上课")
